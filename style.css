@@ -1,0 +1,48 @@
+.fix{
+  position:fixed;
+}
+.rect{
+  background: blue;
+  height:300px;
+  width:500px;
+  position: relative;
+  top:200px;
+  left: 200px;
+}
+.circle{
+  background-color: red;
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+  position:absolute;
+  top: 150px;
+  left:250px;
+  z-index: 0;
+}
+.eye{
+  background-color: black;
+  height: 20px;
+  width:20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+.eye1{
+  background-color: black;
+  height: 20px;
+  width:20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 60px;
+  right: 40px;
+}
+
+.lip{
+  background-color: black;
+  height: 10px;
+  width:40px;
+  position:absolute;
+  bottom: 40px;
+  left:80px;
+}
